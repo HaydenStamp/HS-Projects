@@ -6,68 +6,89 @@
     <title>Hayden Stamp | Finance Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
     <div class="container">
         <h1>Hayden Stamp</h1>
-        <p>Accounting Student | Aspiring Financial Advisor</p>
+        <p>Accounting Student | Finance Portfolio</p>
 
         <nav>
-            <a href="#">Home</a>
             <a href="#projects">Projects</a>
-            <a href="#books">Book Projects</a>
-            <a href="#contact">Contact</a>
         </nav>
     </div>
 </header>
 
 <section class="hero">
     <div class="container">
-        <h2>Finance Portfolio</h2>
+        <h2>Projects</h2>
         <p>
-            A collection of Excel models, financial planning projects,
-            investment analyses, and book summaries.
+            A collection of Excel models, financial analyses,
+            budgeting tools, and personal finance projects.
         </p>
     </div>
 </section>
 
 <section id="projects" class="container">
 
-    <h2>Featured Projects</h2>
+    <!-- PROJECT TEMPLATE -->
 
     <div class="card">
-        <h3>Personal Monthly Budget</h3>
-        <p>
-            Excel workbook used to track income, expenses,
-            savings, and monthly cash flow.
+
+        <h2>Project Title</h2>
+
+        <p class="description">
+            Write a short overview of the project here.
+            Explain what it does and what problem it solves.
         </p>
 
-        <a class="button" href="Personal%20monthly%20budget1.xlsx">
-            Download Excel Workbook
+        <h4>Skills Used</h4>
+
+        <ul class="skills">
+            <li>Excel</li>
+            <li>Financial Analysis</li>
+            <li>Budgeting</li>
+        </ul>
+
+        <!-- IMAGE CAROUSEL -->
+
+        <div class="carousel">
+
+            <button class="prev">&#10094;</button>
+
+            <div class="slides">
+
+                <div class="slide active">
+                    <img src="images/project-placeholder.png" alt="">
+                    <p>Screenshot description goes here.</p>
+                </div>
+
+                <div class="slide">
+                    <img src="images/project-placeholder.png" alt="">
+                    <p>Another screenshot description.</p>
+                </div>
+
+                <div class="slide">
+                    <img src="images/project-placeholder.png" alt="">
+                    <p>Final screenshot description.</p>
+                </div>
+
+            </div>
+
+            <button class="next">&#10095;</button>
+
+        </div>
+
+        <a class="button"
+           href="Personal%20monthly%20budget1.xlsx">
+            Download Workbook
         </a>
+
     </div>
 
 </section>
 
-<section id="books" class="container">
-
-    <h2>Book Projects</h2>
-
-    <div class="card">
-        <h3>Coming Soon</h3>
-        <p>
-            Summaries and practical projects based on finance,
-            investing, and financial planning books.
-        </p>
-    </div>
-
-</section>
-
-<footer id="contact">
-    <p>© 2026 Hayden Stamp</p>
-</footer>
+<script src="script.js"></script>
 
 </body>
 </html>
